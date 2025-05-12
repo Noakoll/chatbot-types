@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>עולם הצ'אטבוטים - שני סוגים עיקריים</title>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chatbot-website">
+        <header class="main-header">
+            <h1>עולם הצ'אטבוטים - שני סוגים עיקריים</h1>
+            <div class="video-text">
+                בסרטון למדנו ששני הסוגים העיקריים של צ'אטבוטים הם: מבוססי חוקים ומבוססי בינה מלאכותית. כעת נכיר דוגמאות מעשיות מכל סוג ונבין איך הם יכולים לסייע לנו בלימודים!
+            </div>
+        </header>
+
+        <section class="categories-container">
+            <!-- Title for AI categories spanning both columns -->
+            <div class="ai-categories-wrapper">
+                <h2 class="category-title ai-main-title">צ'אטבוטים מבוססי בינה מלאכותית</h2>
+                <div class="ai-categories-grid">
+                    <!-- Basic AI Section -->
+                    <div class="subcategory animate-on-scroll">
+                        <h3 class="subcategory-title">
+                            <div class="branch-icon">🤖</div>
+                            בינה מלאכותית בסיסית
+                        </h3>
+                        <p class="branch-description">
+                            צ'אטבוטים שמשתמשים בטכנולוגיות של עיבוד שפה טבעית (NLP) ומבצעות למידת מכונה בסיסית.
+                        </p>
+                        
+                        <!-- Duolingo Bot -->
+                        <div class="chatbot-card" id="duolingo">
+                            <div class="chatbot-header">
+                                <div class="chatbot-logo" style="color: var(--accent-green);">D</div>
+                                <div class="chatbot-name">Duolingo Bot</div>
+                                <div class="expand-icon">▼</div>
+                            </div>
+                            <div class="chatbot-content">
+                                <div class="chatbot-info">
+                                    <div class="info-item">
+                                        <div class="info-label">מי אני:</div>
+                                        צ'אטבוט לימוד שפות המאפשר תרגול שיחה והתקדמות בשפה חדשה
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">שימוש עיקרי:</div>
+                                        תרגול שיחה בשפה זרה, תיקון שגיאות דקדוק
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">חוזקות:</div>
+                                        התאמה אישית, למידה מטעויות, שיחה טבעית
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">מגבלות:</div>
+                                        מוגבל לתחום הלימוד הספציפי
+                                    </div>
+                                </div>
+                                <div class="chat-example">
+                                    <div class="chat-message bot-message">¡Hola! ¿Cómo estás hoy? (שלום! מה שלומך היום?)</div>
+                                    <div class="chat-message user-message">Estoy bien, y tu?</div>
+                                    <div class="chat-message bot-message">¡Muy bien! כמעט מושלם, אבל שים לב - בספרדית צריך סימן שאלה בהתחלה וגם אקצנט: ¿y tú?. בוא נמשיך - ¿Qué te gusta hacer?</div>
+                                </div>
+                                <a href="https://www.duolingo.com" target="_blank" class="chatbot-link">
+                                    בקר באתר Duolingo Bot
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Bookbot -->
+                        <div class="chatbot-card" id="bookbot">
+                            <div class="chatbot-header">
+                                <div class="chatbot-logo" style="color: var(--accent-green);">📚</div>
+                                <div class="chatbot-name">Bookbot</div>
+                                <div class="expand-icon">▼</div>
+                            </div>
+                            <div class="chatbot-content">
+                                <div class="chatbot-info">
+                                    <div class="info-item">
+                                        <div class="info-label">מי אני:</div>
+                                        בוט עוזר לקריאה ולמידה מספרים
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">שימוש עיקרי:</div>
+                                        חיפוש מידע בספרים, המלצות קריאה
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">חוזקות:</div>
+                                        הבנת הקשר, ניתוח טקסטים, המלצות מותאמות
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">מגבלות:</div>
+                                        תלוי באיכות החומר שהוזן למערכת
+                                    </div>
+                                </div>
+                                <div class="chat-example">
+                                    <div class="chat-message user-message">אני צריך עזרה בהבנת הנושא של אשמה במקבת'</div>
+                                    <div class="chat-message bot-message">הנושא של אשמה מרכזי במקבת. בואו נבחן כמה ציטוטים מרכזיים:
+'Out, damned spot!' (מערכה 5) - ליידי מקבת מנסה לשטוף דם דמיוני, סמל לאשמה שלה.
+המלך מקבת אומר: 'Will all great Neptune's ocean wash this blood clean from my hand?'
+רוצה שאעמיק בניתוח או שאציע מקורות נוספים?</div>
+                                </div>
+                                <a href="https://www.bookbot.ai" target="_blank" class="chatbot-link">
+                                    בקר באתר Bookbot
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- EduAid Bot -->
+                        <div class="chatbot-card" id="eduaid">
+                            <div class="chatbot-header">
+                                <div class="chatbot-logo" style="color: var(--accent-green);">EA</div>
+                                <div class="chatbot-name">EduAid Bot</div>
+                                <div class="expand-icon">▼</div>
+                            </div>
+                            <div class="chatbot-content">
+                                <div class="chatbot-info">
+                                    <div class="info-item">
+                                        <div class="info-label">מי אני:</div>
+                                        עוזר לימודי המתאים את עצמו לסגנון הלמידה האישי
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">שימוש עיקרי:</div>
+                                        התאמת תוכן לימודי, מעקב התקדמות
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">חוזקות:</div>
+                                        למידה מהתנהגות המשתמש, התאמה אישית מתמשכת
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">מגבלות:</div>
+                                        דורש זמן להכיר את המשתמש
+                                    </div>
+                                </div>
+                                <div class="chat-example">
+                                    <div class="chat-message bot-message">שמתי לב שאתה מעדיף הסברים ויזואליים. בוא נלמד את נושא הנגזרות עם דיאגרמות.</div>
+                                    <div class="chat-message user-message">כן, אני באמת מתקשה להבין נגזרות</div>
+                                    <div class="chat-message bot-message">אז בוא נחשוב על נגזרת כמו מד מהירות ברכב - היא מודדת כמה מהר משתנה הפונקציה. אני אצייר לך גרף...</div>
+                                </div>
+                                <a href="https://www.eduaid.ai" target="_blank" class="chatbot-link">
+                                    בקר באתר EduAid Bot
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LLM Section -->
+                    <div class="subcategory llm-category animate-on-scroll">
+                        <h3 class="subcategory-title">
+                            <div class="branch-icon">🧠</div>
+                            מודלים שפתיים גדולים (LLM)
+                        </h3>
+                        <p class="branch-description">
+                            הצ'אטבוטים המתקדמים ביותר בקטגוריית הבינה המלאכותית, המבוססים על מודלים שהוכשרו על כמויות עצומות של טקסט.
+                        </p>
+                        
+                        <!-- ChatGPT -->
+                        <div class="chatbot-card" id="chatgpt">
+                            <div class="chatbot-header">
+                                <div class="chatbot-logo" style="background: linear-gradient(135deg, var(--primary-purple), var(--accent-green)); color: white;">GPT</div>
+                                <div class="chatbot-name">ChatGPT</div>
+                                <div class="expand-icon">▼</div>
+                            </div>
+                            <div class="chatbot-content">
+                                <div class="chatbot-info">
+                                    <div class="info-item">
+                                        <div class="info-label">מי אני:</div>
+                                        צ'אטבוט המבוסס על מודל שפתי גדול
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">שימוש עיקרי:</div>
+                                        עזרה בכתיבה, הסברים מורכבים, תכנות, סיכום
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">חוזקות:</div>
+                                        ידע נרחב, יכולת הבנה עמוקה, יצירתיות
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">מגבלות:</div>
+                                        עלול לייצר מידע שגוי, חוסר עדכניות
+                                    </div>
+                                </div>
+                                <div class="chat-example">
+                                    <div class="chat-message user-message">איך אפשר להסביר את התורה היחסית לילד בן 10?</div>
+                                    <div class="chat-message bot-message">נדמיין שאתה רוכב על רכבת מהירה מאוד. לך נראה שהזמן עובר רגיל, אבל לחבר שלך שעומד על הרציף נראה שהזמן שלך עובר לאט יותר. זו תורת היחסות - הזמן והמרחב משתנים בהתאם למהירות שלנו!
+כמו במשחק וידאו שבו הדמות שלך זזה מהר והכול מסביב נראה איטי...</div>
+                                </div>
+                                <a href="https://chat.openai.com" target="_blank" class="chatbot-link">
+                                    בקר באתר ChatGPT
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Khanmigo -->
+                        <div class="chatbot-card" id="khanmigo">
+                            <div class="chatbot-header">
+                                <div class="chatbot-logo" style="background: linear-gradient(135deg, var(--primary-purple), var(--accent-green)); color: white;">KM</div>
+                                <div class="chatbot-name">Khanmigo</div>
+                                <div class="expand-icon">▼</div>
+                            </div>
+                            <div class="chatbot-content">
+                                <div class="chatbot-info">
+                                    <div class="info-item">
+                                        <div class="info-label">מי אני:</div>
+                                        עוזר למידה חכם מבית Khan Academy
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">שימוש עיקרי:</div>
+                                        הדרכה אישית במתמטיקה ומדעים, פיתוח חשיבה ביקורתית
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">חוזקות:</div>
+                                        הסברים מותאמים אישית, הכוונה סוקרטית, משוב מפורט
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">מגבלות:</div>
+                                        זמין רק למנויים, מוגבל לתחומי הלימוד של Khan Academy
+                                    </div>
+                                </div>
+                                <div class="chat-example">
+                                    <div class="chat-message user-message">אני לא מבין איך לפתור משוואה ריבועית</div>
+                                    <div class="chat-message bot-message">בוא ננסה לפרק את זה לצעדים. קודם כל, האם אתה יכול לזהות את המקדמים a, b, ו-c במשוואה? למשל, במשוואה x² + 5x + 6 = 0, מה יהיה כל אחד מהם?</div>
+                                    <div class="chat-message user-message">אה, אז a=1, b=5, ו-c=6?</div>
+                                    <div class="chat-message bot-message">מצוין! עכשיו, האם אתה זוכר מה הצעד הבא? רמז: יש לנו נוסחה מיוחדת שמשתמשת במקדמים האלה...</div>
+                                </div>
+                                <a href="https://www.khanacademy.org/khan-labs" target="_blank" class="chatbot-link">
+                                    בקר באתר Khanmigo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rule-based Section -->
+            <div class="category-section rule-based-wrapper">
+                <h2 class="category-title">צ'אטבוטים מבוססי חוקים</h2>
+                <div class="branch rule-based animate-on-scroll">
+                    <p class="branch-description">
+                        צ'אטבוטים אלו פועלים לפי תסריטים ותבניות מוגדרים מראש. הם מצוינים במשימות ספציפיות ונותנים תשובות מדויקות לשאלות צפויות.
+                    </p>
+
+                    <!-- QuizBot -->
+                    <div class="chatbot-card" id="quizbot">
+                        <div class="chatbot-header">
+                            <div class="chatbot-logo" style="color: var(--primary-purple);">QB</div>
+                            <div class="chatbot-name">QuizBot</div>
+                            <div class="expand-icon">▼</div>
+                        </div>
+                        <div class="chatbot-content">
+                            <div class="chatbot-info">
+                                <div class="info-item">
+                                    <div class="info-label">מי אני:</div>
+                                    צ'אטבוט שמפעיל שאלות וחידונים אינטראקטיביים עם משוב מיידי
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">שימוש עיקרי:</div>
+                                    שיפור הבנה וזכירה של חומר לימודי
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">חוזקות:</div>
+                                    תשובות מדויקות, משוב מיידי, עקביות בתגובות
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">מגבלות:</div>
+                                    לא מבין שאלות לא צפויות, חוסר גמישות
+                                </div>
+                            </div>
+                            <div class="chat-example">
+                                <div class="chat-message bot-message">היי! רוצה לתרגל את החומר על צ'אטבוטים?</div>
+                                <div class="chat-message user-message">כן</div>
+                                <div class="chat-message bot-message">מצוין! מהם שני הסוגים העיקריים של צ'אטבוטים?</div>
+                                <div class="chat-message user-message">מבוססי חוקים ומבוססי בינה מלאכותית</div>
+                                <div class="chat-message bot-message">נכון מאוד! 🌟 שאלה הבאה: איזה סוג צ'אטבוט בדרך כלל יותר מדויק במשימות ספציפיות?</div>
+                            </div>
+                            <a href="https://quizbot.ai" target="_blank" class="chatbot-link">
+                                בקר באתר QuizBot
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ClassBot -->
+                    <div class="chatbot-card" id="classbot">
+                        <div class="chatbot-header">
+                            <div class="chatbot-logo" style="color: var(--primary-purple);">CB</div>
+                            <div class="chatbot-name">ClassBot</div>
+                            <div class="expand-icon">▼</div>
+                        </div>
+                        <div class="chatbot-content">
+                            <div class="chatbot-info">
+                                <div class="info-item">
+                                    <div class="info-label">מי אני:</div>
+                                    צ'אטבוט שמנהל את הקורס בזמן אמת
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">שימוש עיקרי:</div>
+                                    עזרה בשאלות על משימות, לוחות זמנים, דרישות הקורס
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">חוזקות:</div>
+                                    מידע מדויק וזמין 24/7 על הקורס
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">מגבלות:</div>
+                                    לא יכול לענות על שאלות מחוץ לתחום המוגדר
+                                </div>
+                            </div>
+                            <div class="chat-example">
+                                <div class="chat-message user-message">מתי צריך להגיש את העבודה בקורס צ'אטבוטים?</div>
+                                <div class="chat-message bot-message">העבודה בקורס צ'אטבוטים צריכה להיות מוגשת עד ה-15.5 בשעה 23:59.</div>
+                                <div class="chat-message user-message">האם אפשר להגיש בזוגות?</div>
+                                <div class="chat-message bot-message">לא, העבודה היא אישית. אם יש לך שאלות נוספות על העבודה, אפשר לפנות למרצה בשעות הקבלה יום ב' 14:00-16:00.</div>
+                            </div>
+                            <a href="https://www.classbot.com" target="_blank" class="chatbot-link">
+                                בקר באתר ClassBot
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Google Forms Bot -->
+                    <div class="chatbot-card" id="googleforms">
+                        <div class="chatbot-header">
+                            <div class="chatbot-logo" style="color: var(--primary-purple);">GF</div>
+                            <div class="chatbot-name">Google Forms Bot</div>
+                            <div class="expand-icon">▼</div>
+                        </div>
+                        <div class="chatbot-content">
+                            <div class="chatbot-info">
+                                <div class="info-item">
+                                    <div class="info-label">מי אני:</div>
+                                    בוט לניהול משובים וסקרים
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">שימוש עיקרי:</div>
+                                    איסוף נתונים, משובים, בחנים קצרים
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">חוזקות:</div>
+                                    עיבוד מהיר של טפסים, איסוף נתונים יעיל
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-label">מגבלות:</div>
+                                    אינטראקציה מוגבלת, תשובות סטנדרטיות בלבד
+                                </div>
+                            </div>
+                            <div class="chat-example">
+                                <div class="chat-message bot-message">שלום, אשמח אם תוכל/י למלא משוב קצר על השיעור האחרון (5 שאלות, כ-2 דקות).</div>
+                                <div class="chat-message user-message">בסדר</div>
+                                <div class="chat-message bot-message">שאלה 1/5: עד כמה השיעור היה ברור? דרג/י מ-1 עד 5</div>
+                                <div class="chat-message user-message">4</div>
+                                <div class="chat-message bot-message">תודה! שאלה 2/5: מה היה החלק המעניין ביותר בשיעור?</div>
+                            </div>
+                            <a href="https://forms.google.com" target="_blank" class="chatbot-link">
+                                בקר באתר Google Forms Bot
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section class="comparison-table animate-on-scroll">
+            <h2 class="comparison-title">השוואה בין הקטגוריות</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>מאפיין</th>
+                        <th>צ'אטבוטים מבוססי חוקים</th>
+                        <th>צ'אטבוטים מבוססי AI רגיל</th>
+                        <th>מודלים שפתיים גדולים (LLM)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>גמישות</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill low"></div>
+                            </div>
+                            נמוכה - תשובות קבועות
+                        </td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill medium"></div>
+                            </div>
+                            בינונית - מתאימים עצמם
+                        </td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill high"></div>
+                            </div>
+                            גבוהה מאוד - הבנה עמוקה
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>דיוק</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill high"></div>
+                            </div>
+                            גבוה מאוד בתחום המוגדר
+                        </td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill medium"></div>
+                            </div>
+                            גבוה בתחום ההתמחות
+                        </td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill medium"></div>
+                            </div>
+                            משתנה, תלוי בנושא
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>מהירות</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill high"></div>
+                            </div>
+                            מהיר מאוד
+                        </td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill medium"></div>
+                            </div>
+                            מהיר
+                        </td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill medium"></div>
+                            </div>
+                            משתנה לפי מורכבות
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>עלות פיתוח</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill low"></div>
+                            </div>
+                            נמוכה
+                        </td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill medium"></div>
+                            </div>
+                            בינונית
+                        </td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress-fill high"></div>
+                            </div>
+                            גבוהה
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>דוגמאות</td>
+                        <td>QuizBot, ClassBot, Google Forms</td>
+                        <td>Duolingo, Bookbot, EduAid</td>
+                        <td>ChatGPT, Khanmigo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Summary -->
+        <footer class="summary animate-on-scroll">
+            <p>
+                כפי שראינו, צ'אטבוטים מבוססי חוקים מצוינים למשימות מוגדרות וספציפיות, בעוד שצ'אטבוטים מבוססי בינה מלאכותית (כולל מודלים שפתיים גדולים) מציעים גמישות ויכולות הבנה מתקדמות יותר. הבחירה ביניהם תלויה במשימה הספציפית שלכם!
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
